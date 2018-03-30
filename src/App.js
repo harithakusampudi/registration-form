@@ -3,8 +3,10 @@ import './App.css';
 
 class App extends Component {
   msg() {
-    alert("success");
+    alert("success form");
   }
+
+
   render() {
     return (
       <div class="container">
