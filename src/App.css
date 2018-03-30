@@ -1,0 +1,51 @@
+
+.container{
+  display:flex;
+  justify-content:center;
+  height:300px;
+}
+.contain{
+  display:flex;
+  justify-content:flex-end;
+  align-self:flex-end;
+}
+.input_name{
+background:#efefef;
+width:370px;
+margin-right:2px;
+height:20px;
+font-size:medium;
+padding-left:3px;
+padding:20px;
+}
+.input_ph{
+width:370px;
+height:40px;
+background:#efefef;
+padding:10px;
+font-size:medium;
+margin-top:3px;
+}
+.input_address{
+width:807px;
+height:200px;
+background:#efefef;
+padding:10px;
+font-size:medium;
+margin-top:3px;
+}
+.button_box{
+width:70px;
+height:40px;
+letter-spacing:2px;
+background:black;
+margin-top:10px;
+color:white;
+}
+.title{
+font-weight:bold;
+white-space:pre;
+font-size:20px;
+margin-top:80px;
+letter-spacing:3px;
+}
