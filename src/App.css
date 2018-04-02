@@ -10,7 +10,7 @@
   align-self:flex-end;
 }
 .input_name{
-background:blue;
+background:#efefef;
 width:370px;
 margin-right:2px;
 height:20px;
@@ -39,6 +39,7 @@ width:70px;
 height:40px;
 letter-spacing:2px;
 background:black;
+margin-right: 4px;
 margin-top:10px;
 color:white;
 }
