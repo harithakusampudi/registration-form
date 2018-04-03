@@ -5,6 +5,7 @@ import Alert from 'react-s-alert';
 import 'react-s-alert/dist/s-alert-default.css';
 import ReactDOM from 'react-dom';
 import Modal from 'react-responsive-modal';
+import Custombutton from './Custombutton.js'
 
 class App extends Component {
   constructor(props) {
@@ -119,26 +120,12 @@ class App extends Component {
         />
         <br />
         </form>
-        <button
-          class="button_box"
-          onClick={this.msg}
-        >Register
-        </button>
-       
-
-        <button
-          class="button_box"
-         onClick={this.res}
-        >
-        Reset
-        </button>
-       
+        <Custombutton className={"button_box"} onClick={this.msg} title={"Register"}></Custombutton>
+        <Custombutton className={"button_box"} onClick={this.res} title={"Reset"}></Custombutton>
         <Modal open={this.state.openFirstModal} onClose={this.onCloseFirstModal} little>
-           <button className="button_box" onClick={this.ok}>Ok
-            </button>
-            <button className="button_box" onClick={this.cancel}>Cancel</button>
-    </Modal>
-        
+           <Custombutton className={"button_res"}  onClick={this.ok} title={"OK"}></Custombutton>
+            <Custombutton className={"button_res"}  onClick={this.cancel} title={"CANCEL"}></Custombutton>
+        </Modal>
         <div>
           <Alert stack={{limit: 1}} />
             </div>

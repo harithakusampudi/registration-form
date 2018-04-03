@@ -1,0 +1,11 @@
+props()
+return{
+    width:70;
+    height:40;
+    letterSpacing:2;
+    background:'black';
+    marginRight:4;
+    marginTop:10;
+    color:'white';
+    }
+}
